@@ -13,9 +13,9 @@ function validateSyntax() {
 
     if (validInputRegex.test(input)) {
         //Here I am testing if the input matches the expression
-        result = 'Valid'; // Set result to 'Valid' if input matches
+        result = 'Valid name'; // Set result to 'Valid' if input matches
     } else {
-        result = 'Invalid'; // Set result to 'Invalid' if input does not match
+        result = 'Invalid name'; // Set result to 'Invalid' if input does not match
     }
             document.getElementById('result').innerText = result;
             /*Here I am showing the validation result to show if the input is valid by getting the result 
