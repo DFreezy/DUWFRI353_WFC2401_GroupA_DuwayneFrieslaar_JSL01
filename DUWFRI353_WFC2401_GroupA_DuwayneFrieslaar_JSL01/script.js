@@ -7,7 +7,7 @@ function validateSyntax() {
     let petRegex = "pet_";
     let validInputRegex = new RegExp(`^${petRegex}[0-9]+[a-zA-Z]+$`)
     //Here I'm splitting the expression, and calling the variable I created a few lines up
-    console.log(validateSyntax.Regex)
+    
     let result = ''; 
     //Here I am creating a variable and setting it to an empty string
 
