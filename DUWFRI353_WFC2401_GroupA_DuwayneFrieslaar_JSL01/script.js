@@ -5,7 +5,7 @@ function validateSyntax() {
     let regex = /^pet_[a-zA-Z0-9]+$/;
     //Here I am adding the expression values to a variable so I could split it up later
     let petRegex = "pet_";
-    let validInputRegex = new RegExp(`^${petRegex}[0-9]+[a-zA-Z]+$`)
+    let validInputRegex = new RegExp(`^${petRegex}[0-9]{4}[a-zA-Z]+$`)
     //Here I'm splitting the expression, and calling the variable I created a few lines up
     
     let result = ''; 
